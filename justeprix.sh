@@ -1,7 +1,7 @@
 #!/bin/bash
 
 randomNumber=$(( (RANDOM % 1000) + 1))
-echo $randomNumber
+#echo $randomNumber
 guess=0
 
 while [ $guess != $randomNumber ]
